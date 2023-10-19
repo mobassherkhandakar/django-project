@@ -5,4 +5,7 @@ from django.http import HttpResponse
 
 
 def about_us(req):
-    return render(req, 'about/about.html')
+    name = 'Mobassher Khandakar'
+    age = 23
+    offering = {'nm': name, 'year': age}
+    return render(req, 'about/about.html', context=offering)
