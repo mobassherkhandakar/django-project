@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.bainchud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boroBainchud {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.chotoBainchud {
+  background-color: #000;
+  color: aliceblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
